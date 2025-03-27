@@ -1709,12 +1709,7 @@
                           .attr("src", "")
                           .attr("alt", "")
                           .css({ marginRight: "4px", width: "26px" }),
-                        a = e("<img>")
-                          .attr(
-                            "src",
-                            "https://d3e54v103j8qbb.cloudfront.net/img/webflow-badge-text-d2.c82cec3b78.svg"
-                          )
-                          .attr("alt", "Made in Webflow");
+                        a = e("<img>").attr("src", "").attr("alt", "");
                       return t.append(n, a), t[0];
                     })()),
                   u(),
@@ -1767,8 +1762,7 @@
                     r.off(c, u),
                     (function (e) {
                       var t = window.document.createElement("iframe");
-                      (t.src =
-                        "https://webflow.com/site/third-party-cookie-check.html"),
+                      (t.src = ""),
                         (t.style.display = "none"),
                         (t.sandbox = "allow-scripts allow-same-origin");
                       var n = function (a) {
