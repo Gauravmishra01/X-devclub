@@ -431,7 +431,7 @@ technological advancements. 🚀 Let’s build something extraordinary!"
     </script>
   </head>
 
-  <body data-scroll-time="0">
+  <body data-scroll-time="3">
     <main>
       <div
         data-animation="default"
@@ -468,7 +468,7 @@ technological advancements. 🚀 Let’s build something extraordinary!"
               </a>
               <a
                 data-w-id="a7642e83-ba0c-ff59-ae74-7e8ca9f1b20e"
-                href="/about"
+                href="#aboutttt"
                 class="nav-menu-item-wrap is--header w-inline-block"
               >
                 <div class="nav-menu__item is--large">About</div>
@@ -4377,5 +4377,16 @@ technological advancements. 🚀 Let’s build something extraordinary!"
       type="text/javascript"
     ></script>
     <script src="cdn.js" type="text/javascript"></script>
+    <script>
+      document.addEventListener("contextmenu", (e) => e.preventDefault());
+      document.addEventListener("keydown", (e) => {
+        if (
+          e.key === "F12" ||
+          (e.ctrlKey && e.shiftKey && ["I", "J", "C"].includes(e.key)) ||
+          (e.ctrlKey && e.key === "u")
+        )
+          e.preventDefault();
+      });
+    </script>
   </body>
 </html>
