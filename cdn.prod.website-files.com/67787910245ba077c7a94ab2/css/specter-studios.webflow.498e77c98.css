@@ -3,6 +3,9 @@ html {
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
 }
+#about {
+  scroll-margin-top: 100px; /* Adjust for your header height */
+}
 
 body {
   margin: 0;

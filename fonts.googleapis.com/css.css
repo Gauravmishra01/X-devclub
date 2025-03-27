@@ -1,6 +1,10 @@
 html {
   scroll-behavior: smooth;
 }
+#about {
+  scroll-margin-top: 100px; /* Adjust for your header height */
+}
+
 /* latin-ext */
 
 @font-face {
