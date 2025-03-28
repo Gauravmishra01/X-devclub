@@ -1,33 +1,61 @@
-<h1>XDev Club Website 🚀</h1>
+# XDev Club Website 🚀
 
-Welcome to the official repository of the XDev Club Website! This project serves as the digital hub for our club, showcasing our projects, events, and resources for developers.
+Welcome to the official repository of the **XDev Club Website**! This project serves as the digital hub for our club, showcasing our projects, events, and resources for developers.
 
-<h2>🌟 About XDev Club </h2>
-
+## 🌟 About XDev Club
 XDev Club is a community of passionate developers focused on building innovative projects, sharing knowledge, and collaborating on exciting tech initiatives.
 
-<h3>📌 Features</h3>
+## 📌 Features
+- **Home** – Introduction to XDev Club
+- **About Us** – Learn about our team & mission
+- **Projects** – Showcase of our developments
+- **Events & Workshops** – Details on upcoming and past events
+- **Blog & News** – Articles and updates
+- **Resources** – Coding tutorials and useful tools
+- **Contact Us** – Get in touch with us
 
-Home – Introduction to XDev Club
+## 🛠️ Tech Stack
+- **Frontend:** HTML, CSS, JavaScript (Bootstrap/Tailwind CSS)
+- **Backend:** Node.js / Python (Django / Flask) *(if applicable)*
+- **Database:** MongoDB / MySQL *(if applicable)*
+- **Hosting:** GitHub Pages / Vercel / Netlify
 
-About Us – Learn about our team & mission
+## 🚀 Getting Started
+### Clone the repository
+```bash
+git clone https://github.com/XDev-Club/xdev-website.git
+cd xdev-website
+```
 
-Projects – Showcase of our developments
+### Install dependencies *(if applicable)*
+```bash
+npm install  # For Node.js-based projects
+yarn install # Alternative package manager
+```
 
-Events & Workshops – Details on upcoming and past events
+### Run locally
+```bash
+npm start  # Start development server
+yarn start # Alternative command
+```
 
-Blog & News – Articles and updates
+## 🤝 Contributing
+We welcome contributions from the community! Feel free to:
+- Submit bug reports
+- Suggest new features
+- Improve documentation
 
-Resources – Coding tutorials and useful tools
+To contribute, fork the repo, create a new branch, make changes, and submit a pull request.
 
-Contact Us – Get in touch with us
+## 📜 License
+This project is licensed under the **MIT License**.
 
-<h2>🛠️ Tech Stack</h2>
+## 📬 Contact Us
+For inquiries, reach out via:
+- **Email:** ninjazzsite59@gmail.com
+- **Discord:** [Join Our Community](https://discord.gg/example)
+- **Website:** [xdevclub.com](https://xdevclub.com)
 
-Frontend: HTML, CSS, JavaScript (Bootstrap/Tailwind CSS)
+---
+Made with ❤️ by the XDev Club Team.
 
-Backend: Node.js / Python (Django / Flask) (if applicable)
-
-Database: MongoDB / MySQL (if applicable)
-
-Hosting: GitHub Pages / Vercel / Netlify
