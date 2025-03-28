@@ -1,4 +1,4 @@
-XDev Club Website 🚀
+<h1>XDev Club Website 🚀</h1>
 
 Welcome to the official repository of the XDev Club Website! This project serves as the digital hub for our club, showcasing our projects, events, and resources for developers.
 
@@ -6,7 +6,7 @@ Welcome to the official repository of the XDev Club Website! This project serves
 
 XDev Club is a community of passionate developers focused on building innovative projects, sharing knowledge, and collaborating on exciting tech initiatives.
 
-📌 Features
+<h3>📌 Features</h3>
 
 Home – Introduction to XDev Club
 
@@ -22,7 +22,7 @@ Resources – Coding tutorials and useful tools
 
 Contact Us – Get in touch with us
 
-🛠️ Tech Stack
+<h2>🛠️ Tech Stack</h2>
 
 Frontend: HTML, CSS, JavaScript (Bootstrap/Tailwind CSS)
 
