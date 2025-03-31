@@ -5653,7 +5653,7 @@ ul {
 }
 
 .client-tabs {
-  grid-column-gap: 1em;
+  grid-column-gap: 0em;
   grid-row-gap: 1em;
   flex-flow: row;
   justify-content: space-between;
