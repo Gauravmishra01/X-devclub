@@ -9548,7 +9548,7 @@ ul {
 
   .client-tab-inner {
     border-radius: 1em;
-    width: 100%;
+    /* width: 100%; */
     overflow: hidden;
   }
 
