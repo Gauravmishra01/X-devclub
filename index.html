@@ -831,6 +831,34 @@ technological advancements. 🚀 Let’s build something extraordinary!"
         data-w-id="24913ab5-2106-5ec4-87e1-4dec7f54e566"
         class="home-about-section overflow-hidden"
       >
+        <!-- Popup Modal -->
+        <div id="aboutPopup" class="popup-modal" style="display: none">
+          <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <h2>About Us</h2>
+            <h3>Smart development with code, design & AI.</h3>
+            <p>
+              X'DEV is a student-led app development club that empowers aspiring
+              developers to turn ideas into real-world solutions. We focus on
+              hands-on experience in coding, UI/UX design, and AI integration.
+              Through teamwork, innovation, and skill-building, we aim to create
+              impactful applications while preparing members for the tech
+              industry.
+            </p>
+            X'DEV is a student-led app development club that empowers aspiring
+            developers to turn ideas into real-world solutions. We focus on
+            hands-on experience in coding, UI/UX design, and AI integration.
+            Through teamwork, innovation, and skill-building, we aim to create
+            impactful applications while preparing members for the tech
+            industry. X'DEV is a student-led app development club that empowers
+            aspiring developers to turn ideas into real-world solutions. We
+            focus on hands-on experience in coding, UI/UX design, and AI
+            integration. Through teamwork, innovation, and skill-building, we
+            aim to create impactful applications while preparing members for the
+            tech industry.
+          </div>
+        </div>
+
         <div
           data-w-id="0221e20d-5cc7-f700-742f-d7d4e379b28e"
           class="w-layout-blockcontainer container is--padding-bottom-zero w-container"
@@ -962,7 +990,8 @@ technological advancements. 🚀 Let’s build something extraordinary!"
               </div>
               <div data-w-id="ab9edc74-f421-f629-2e8b-73b5ed962778">
                 <a
-                  href="/about"
+                  href="#"
+                  id="readMoreBtn"
                   data-w-id="9e000e23-58a2-844b-63d9-0f9e8a159d78"
                   class="global-button is--secondary w-inline-block"
                 >
@@ -1010,18 +1039,6 @@ technological advancements. 🚀 Let’s build something extraordinary!"
                       alt="monitor on a desk"
                       class="card__image"
                     />
-                    <!-- <div
-                      data-w-id="8fbbba06-4686-73ca-86e0-93677d5e6ffd"
-                      class="popup-card is--gray is--right-side"
-                    >
-                      <div>@nina</div>
-                      <img
-                        src="https://cdn.prod.website-files.com/67787910245ba077c7a94ab2/6782a4e71b556ea05c9d5c39_a55a6aa080f26a6f3c515a4afc3521e2_triangle_colored_yellow.png"
-                        loading="lazy"
-                        alt=""
-                        class="home-card-info__triangle is--rotated-to-right"
-                      />
-                    </div> -->
                   </div>
                   <div class="card is--third is--not-rotated">
                     <img
@@ -1039,18 +1056,6 @@ technological advancements. 🚀 Let’s build something extraordinary!"
                       alt="physical music record"
                       class="card__image"
                     />
-                    <!-- <div
-                      data-w-id="3437be20-a809-67d1-092b-f926d7e4518e"
-                      class="popup-card is--charcoal-purple is--right-side"
-                    >
-                      <div>@austin</div>
-                      <img
-                        src="https://cdn.prod.website-files.com/67787910245ba077c7a94ab2/67a874d09a2e5a49b5b7ed9d_ef4aa9c171cbd412db149b88dd0f45ab_Polygon%202%20%281%29.png"
-                        loading="lazy"
-                        alt=""
-                        class="home-card-info__triangle is--rotated"
-                      />
-                    </div> -->
                   </div>
                   <div class="card is--fourth is--not-rotated">
                     <img
@@ -1074,6 +1079,88 @@ technological advancements. 🚀 Let’s build something extraordinary!"
           </div>
         </div>
       </section>
+
+      <style>
+        /* Popup Modal Styles */
+        .popup-modal {
+          position: fixed;
+          z-index: 1000;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, 0.7);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .popup-content {
+          background-color: #fff;
+          padding: 30px;
+          border-radius: 10px;
+          max-width: 600px;
+          width: 90%;
+          position: relative;
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .close-popup {
+          position: absolute;
+          top: 15px;
+          right: 20px;
+          font-size: 28px;
+          font-weight: bold;
+          color: #333;
+          cursor: pointer;
+        }
+
+        .close-popup:hover {
+          color: #000;
+        }
+
+        .popup-content h2 {
+          margin-top: 0;
+          color: #333;
+        }
+
+        .popup-content h3 {
+          color: #555;
+          margin-bottom: 20px;
+        }
+
+        .popup-content p {
+          color: #666;
+          line-height: 1.6;
+        }
+      </style>
+
+      <script>
+        document.addEventListener("DOMContentLoaded", function () {
+          // Get the modal and button elements
+          const modal = document.getElementById("aboutPopup");
+          const btn = document.getElementById("readMoreBtn");
+          const span = document.querySelector(".close-popup");
+
+          // When the user clicks the button, open the modal
+          btn.onclick = function (e) {
+            e.preventDefault();
+            modal.style.display = "flex";
+          };
+
+          // When the user clicks on (x), close the modal
+          span.onclick = function () {
+            modal.style.display = "none";
+          };
+
+          // When the user clicks anywhere outside of the modal, close it
+          window.onclick = function (event) {
+            if (event.target == modal) {
+              modal.style.display = "none";
+            }
+          };
+        });
+      </script>
       <section id="what_we_do" class="home-services-section">
         <div
           class="w-layout-blockcontainer container is--full-width is--home-services w-container"
@@ -3826,7 +3913,7 @@ technological advancements. 🚀 Let’s build something extraordinary!"
                         />
                       </h1>
                     </a>
-                    <div class="popup-card is--soft-gold">
+                    <!-- <div class="popup-card is--soft-gold">
                       <div>@kyle</div>
                       <img
                         src="https://cdn.prod.website-files.com/67787910245ba077c7a94ab2/6782a4e71b556ea05c9d5c39_a55a6aa080f26a6f3c515a4afc3521e2_triangle_colored_yellow.png"
@@ -3834,7 +3921,7 @@ technological advancements. 🚀 Let’s build something extraordinary!"
                         alt=""
                         class="home-card-info__triangle is--rotated is--28-deg"
                       />
-                    </div>
+                    </div> -->
                   </div>
                   <div class="footer-info-texts-wrap">
                     <p class="footer-info__description">
@@ -3857,7 +3944,7 @@ technological advancements. 🚀 Let’s build something extraordinary!"
                         href="https://webflow.com/"
                         target="_blank"
                         class="color-silver is--hover-able"
-                        >Gaurav</a
+                        ><br />X'DEV CLUB</a
                       >
                     </div>
                   </div>
@@ -3949,7 +4036,7 @@ technological advancements. 🚀 Let’s build something extraordinary!"
                       </li>
                       <li class="footer-info-list-item">
                         <a href="tel:+191085869" class="footer-info__text"
-                          >+1234567890</a
+                          >+91 9999774924</a
                         >
                       </li>
                     </ul>
