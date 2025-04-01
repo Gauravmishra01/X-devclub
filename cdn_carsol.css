@@ -4954,6 +4954,7 @@ ul {
 
 .home-about-info__top {
   color: var(--colors--charcoal-gray);
+  font-size: 250%;
 }
 
 .blogs-wrap {
