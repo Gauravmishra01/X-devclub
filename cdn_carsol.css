@@ -6971,10 +6971,10 @@ ul {
     font-size: 2.2rem;
   }
 
-  .container,
+  /* .container,
   .container.is--home-contact {
     max-width: 1400px;
-  }
+  } */
 
   .home-hero-buttons {
     margin-top: var(--sizes--x-small);
