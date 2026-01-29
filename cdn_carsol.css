@@ -344,11 +344,6 @@ html.w-mod-touch * {
 }
 
 
-/* ========================================
-   BUTTON COMPONENTS
-   Button styling and states
-   ======================================== */
-
 input.w-button {
   -webkit-appearance: button;
 }
