@@ -1,3 +1,28 @@
+/**
+ * ========================================
+ * XDEVCLUB - BUNDLED LIBRARIES
+ * ========================================
+ * 
+ * This file contains bundled JavaScript libraries and dependencies:
+ * - Moment.js: Date/time manipulation library
+ * - jQuery: DOM manipulation and utilities
+ * - Webflow: Animation and interaction framework
+ * - Other supporting libraries and utilities
+ * 
+ * NOTE: This is a compiled/bundled file. For individual library 
+ * documentation, please refer to:
+ * - Moment.js: https://momentjs.com/
+ * - jQuery: https://jquery.com/
+ * - Webflow: https://webflow.com/
+ * 
+ * Module Structure:
+ * - Locale definitions (lines ~3-10000): Various language/locale configurations
+ * - Animation framework (Tram): Custom animation engine
+ * - Event handlers and utilities: DOM event management
+ * - Webflow integrations: Webflow-specific functionality
+ * ========================================
+ */
+
 (() => {
   var e = {
       12372: function (e, t, n) {

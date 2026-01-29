@@ -1,3 +1,15 @@
+/**
+ * ========================================
+ * XDEVCLUB STYLESHEET
+ * Main stylesheet for the X'DevClub website
+ * ========================================
+ */
+
+/* ========================================
+   BASE / RESET STYLES
+   Browser reset and normalization
+   ======================================== */
+
 html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -273,6 +285,12 @@ img {
   display: inline-block;
 }
 
+
+/* ========================================
+   LAYOUT UTILITIES
+   Layout and positioning utilities
+   ======================================== */
+
 html.w-mod-touch * {
   background-attachment: scroll !important;
 }
@@ -297,9 +315,21 @@ html.w-mod-touch * {
   clear: both;
 }
 
+
+/* ========================================
+   VISIBILITY UTILITIES
+   Classes for showing/hiding elements
+   ======================================== */
+
 .w-hidden {
   display: none;
 }
+
+
+/* ========================================
+   BUTTON COMPONENTS
+   Button styling and states
+   ======================================== */
 
 .w-button {
   color: #fff;
@@ -312,6 +342,7 @@ html.w-mod-touch * {
   text-decoration: none;
   display: inline-block;
 }
+
 
 input.w-button {
   -webkit-appearance: button;
@@ -538,6 +569,12 @@ button,
   border: 0;
 }
 
+
+/* ========================================
+   FORM COMPONENTS
+   Form elements and input styling
+   ======================================== */
+
 .w-form {
   margin: 0 0 15px;
 }
@@ -758,6 +795,12 @@ textarea.w-select {
   height: 20px;
 }
 
+
+/* ========================================
+   CONTAINER & LAYOUT COMPONENTS
+   Container, rows, columns, and grid layouts
+   ======================================== */
+
 .w-container {
   max-width: 940px;
   margin-left: auto;
@@ -861,6 +904,12 @@ textarea.w-select {
 .w-hidden-main {
   display: none !important;
 }
+
+
+/* ========================================
+   RESPONSIVE MEDIA QUERIES
+   Breakpoint-specific styling for responsive design
+   ======================================== */
 
 @media screen and (max-width: 991px) {
   .w-container {
@@ -1263,6 +1312,12 @@ textarea.w-select {
   display: none !important;
 }
 
+
+/* ========================================
+   SLIDER COMPONENTS
+   Image sliders and carousels
+   ======================================== */
+
 .w-slider {
   text-align: center;
   clear: both;
@@ -1419,6 +1474,12 @@ textarea.w-select {
   display: block !important;
 }
 
+
+/* ========================================
+   DROPDOWN COMPONENTS
+   Dropdown menus and interactions
+   ======================================== */
+
 .w-dropdown {
   text-align: left;
   z-index: 900;
@@ -1494,6 +1555,12 @@ textarea.w-select {
     padding-left: 10px;
   }
 }
+
+
+/* ========================================
+   LIGHTBOX / MODAL COMPONENTS
+   Modal overlays and lightbox functionality
+   ======================================== */
 
 .w-lightbox-backdrop {
   cursor: auto;
@@ -1908,6 +1975,12 @@ textarea.w-select {
   margin-left: 15px;
 }
 
+
+/* ========================================
+   NAVIGATION COMPONENTS
+   Navigation menus and mobile navigation
+   ======================================== */
+
 .w-nav {
   z-index: 1000;
   background: #ddd;
@@ -2042,6 +2115,12 @@ textarea.w-select {
   position: static;
 }
 
+
+/* ========================================
+   RESPONSIVE MEDIA QUERIES
+   Breakpoint-specific styling for responsive design
+   ======================================== */
+
 @media screen and (max-width: 991px) {
   .w-nav[data-collapse="medium"] .w-nav-menu {
     display: none;
@@ -2075,6 +2154,12 @@ textarea.w-select {
     display: block;
   }
 }
+
+
+/* ========================================
+   TABS COMPONENTS
+   Tab navigation and content panels
+   ======================================== */
 
 .w-tabs {
   position: relative;
@@ -3256,6 +3341,12 @@ textarea.w-select {
 .w-commerce-commercecheckoutshippingsummarywrapper {
   margin-bottom: 20px;
 }
+
+
+/* ========================================
+   RESPONSIVE MEDIA QUERIES
+   Breakpoint-specific styling for responsive design
+   ======================================== */
 
 @media screen and (max-width: 991px) {
   .w-layout-blockcontainer {
@@ -7700,6 +7791,12 @@ ul {
   }
 }
 
+
+/* ========================================
+   RESPONSIVE MEDIA QUERIES
+   Breakpoint-specific styling for responsive design
+   ======================================== */
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 4.7rem;
@@ -9704,6 +9801,12 @@ ul {
     height: 140px;
   }
 }
+
+
+/* ========================================
+   RESPONSIVE MEDIA QUERIES
+   Breakpoint-specific styling for responsive design
+   ======================================== */
 
 @media screen and (max-width: 991px) {
   #w-node-d38cbf6e-b386-de2c-9364-eda2bf44e875-07208e42 {
